@@ -1,0 +1,40 @@
+body {
+    background-color: #fff6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    font-size: 2rem;
+    
+}
+
+li{
+    text-align: left; 
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+h1 {
+    font-family: 'Kanit', sans-serif;
+}
+button{
+    background-color: red;
+}
+img {
+    border-radius: 5%;
+    width: 25%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto ; /* Center the images */
+
+}
+@media only screen and (max-width: 1000px) {
+    li {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+    img{
+        width:50vw;
+        height:45vw;
+    }
+}
