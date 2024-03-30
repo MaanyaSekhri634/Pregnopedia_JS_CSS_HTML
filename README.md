@@ -1,2 +1,2 @@
 # Pregnopedia_JS_CSS_HTML
-It is a responsive website which suggests balanced diet, physical exercise guidelines along with general guidelines to pregnant women based on their current trimester.
+This website is the ultimate tool for pregnant women seeking personalized guidance on diet, exercise, and general guidelines for their current trimester.
