@@ -149,20 +149,24 @@ li span {
 /* INFO_SECTION CSS */
 
 .infoSection {
-  height: 600px;
+  height: auto;
+  padding: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .infoHeader {
-  text-align: center;
   margin-bottom: 40px;
 }
 
 .infoCards {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  padding: 40px 0 40px 0;
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+  gap: 20px; 
 }
 
 .infoCards .card {
